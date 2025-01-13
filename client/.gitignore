@@ -1,0 +1,46 @@
+# Ignore node_modules folder (for Node.js projects)
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*.bak
+
+# Ignore system files
+.DS_Store    # macOS system file
+Thumbs.db    # Windows system file
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore dependency directories for some popular tools (like Composer for PHP, etc.)
+vendor/
+
+# Ignore environment variables or config files
+.env
+
+# Ignore build or output directories
+/dist
+/build
+
+# Ignore IDE or editor config files (e.g., VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Ignore compiled binaries or libraries
+*.exe
+*.out
+*.dll
+*.so
+
+# Ignore coverage reports (for code coverage tools)
+coverage/
+
+# Ignore archives or package files
+*.tar.gz
+*.zip
+*.tar.bz2
